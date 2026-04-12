@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Privacy Policy for Status Saver Downloader app by Prateek Sharma">
-    <meta name="keywords" content="privacy policy, status saver, story saver, android app">
+    <meta name="description" content="Privacy Policy for Status Saver Downloader app by RangRanjan Developers">
+    <meta name="keywords" content="privacy policy, status saver, story saver, status downloader, android app">
     <meta name="author" content="Prateek Sharma">
     
     <!-- Open Graph / Facebook -->
@@ -235,6 +235,63 @@
             transform: translateY(-3px);
         }
         
+        .download-cta {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.9em;
+            box-shadow: 0 4px 15px rgba(40, 167, 69, 0.4);
+            transition: all 0.3s ease;
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .download-cta:hover {
+            background: linear-gradient(135deg, #218838 0%, #1ea97c 100%);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(40, 167, 69, 0.5);
+            color: white;
+            text-decoration: none;
+        }
+        
+        .download-cta-bottom {
+            background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+            color: white;
+            padding: 16px 32px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1em;
+            box-shadow: 0 4px 15px rgba(40, 167, 69, 0.4);
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            margin: 20px auto;
+            text-align: center;
+        }
+        
+        .download-cta-bottom:hover {
+            background: linear-gradient(135deg, #218838 0%, #1ea97c 100%);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(40, 167, 69, 0.5);
+            color: white;
+            text-decoration: none;
+        }
+        
+        .download-cta-container {
+            text-align: center;
+            margin: 30px 0;
+        }
+        
         @media (max-width: 768px) {
             .container {
                 padding: 20px;
@@ -256,6 +313,18 @@
             .service-grid {
                 grid-template-columns: 1fr;
             }
+            
+            .download-cta {
+                top: 10px;
+                right: 10px;
+                padding: 10px 18px;
+                font-size: 0.8em;
+            }
+            
+            .download-cta-bottom {
+                padding: 14px 24px;
+                font-size: 1em;
+            }
         }
         
         @media (max-width: 480px) {
@@ -269,6 +338,18 @@
             
             .header h1 {
                 font-size: 1.8em;
+            }
+            
+            .download-cta {
+                top: 5px;
+                right: 5px;
+                padding: 8px 14px;
+                font-size: 0.75em;
+            }
+            
+            .download-cta-bottom {
+                padding: 12px 20px;
+                font-size: 0.9em;
             }
         }
         
@@ -288,19 +369,34 @@
             .back-to-top {
                 display: none;
             }
+            
+            .download-cta {
+                display: none;
+            }
+            
+            .download-cta-container {
+                display: none;
+            }
         }
     </style>
 </head>
 <body>
+    <a href="https://play.google.com/store/apps/details?id=com.prateeksharma.statussaverdownloader" target="_blank" class="download-cta">
+        <span>Download the app</span>
+    </a>
+    
     <div class="container">
         <div class="header">
             <h1>Privacy Policy</h1>
             <p class="subtitle">Status Saver Downloader - Your trusted status companion</p>
+        <div style="text-align: center; margin: 20px 0;">
+            <a href="https://play.google.com/store/apps/details?id=com.prateeksharma.statussaverdownloader" target="_blank" class="download-cta-bottom">Download the app</a>
         </div>
+    </div>
         
         <div class="highlight-box">
             <h2>📱 About Status Saver Downloader</h2>
-            <p><strong>Status Saver Downloader</strong> is a Free mobile application developed by <strong>Prateek Sharma</strong> that allows users to download, save, and share status images and videos. This app is provided at no cost and is intended for use as is.</p>
+            <p><strong>Status Saver Downloader</strong> is a Free mobile application developed by <strong>RangRanjan Developers</strong> that allows users to download, save, and share status images and videos. This app is provided at no cost and is intended for use as is.</p>
             
             <p>This Privacy Policy explains how we collect, use, and protect your information when you use our Service. By using Status Saver Downloader, you agree to the collection and use of information in accordance with this policy.</p>
         </div>
@@ -358,12 +454,6 @@
                 <h4>📱 Google Play Services</h4>
                 <p>Provides core Android functionality and Google services integration.</p>
                 <p><a href="https://www.google.com/policies/privacy/" target="_blank">Privacy Policy →</a></p>
-            </div>
-
-            <div class="service-card">
-                <h4>📋 Google User Messaging Platform (UMP)</h4>
-                <p>Helps us obtain user consent for personalized advertising in compliance with GDPR and other privacy regulations.</p>
-                <p><a href="https://policies.google.com/privacy" target="_blank">Privacy Policy →</a></p>
             </div>
             
             <div class="service-card">
@@ -442,7 +532,7 @@
         
         <div class="last-updated">
             <h3>📋 Update History</h3>
-            <p><strong>March 2026:</strong> Initial Privacy Policy for Status Saver Downloader</p>
+            <p><strong>April 2026:</strong> Initial Privacy Policy for Status Saver Downloader</p>
             <p>Future updates will be documented here</p>
         </div>
         
@@ -453,7 +543,7 @@
             <p>If you have any questions, concerns, or suggestions about this Privacy Policy, please don't hesitate to contact us:</p>
             
             <ul>
-                <li><strong>👨‍💻 Developer:</strong> Prateek Sharma</li>
+                <li><strong>👨‍💻 Developer:</strong> RangRanjan Developers</li>
                 <li><strong>📧 Email:</strong> <a href="mailto:sharmaprateek196@gmail.com">sharmaprateek196@gmail.com</a></li>
                 <li><strong>🏢 Linkedin:</strong> <a href="https://www.linkedin.com/in/sharmaprateek196/" target="_blank">https://www.linkedin.com/in/sharmaprateek196/</a></li>
                 <li><strong>📱 App:</strong> Status Saver Downloader</li>
@@ -463,7 +553,7 @@
             <h4>📞 Additional Contact Methods</h4>
             <ul>
                 <li><strong>🌟 Play Store:</strong> Through Google Play Store listing</li>
-                <li><strong>🐛 Bug Reports:</strong> Through app feedback system</li>
+                <li><strong>🐛 Bug Reports:</strong> <a href="mailto:sharmaprateek196@gmail.com">sharmaprateek196@gmail.com</a></li>
             </ul>
         </div>
         
@@ -533,8 +623,8 @@
         
         <div class="last-updated">
             <h3>📅 Policy Information</h3>
-            <p><strong>Effective Date:</strong> March 2026</p>
-            <p><strong>Next Review:</strong> March 2027</p>
+            <p><strong>Effective Date:</strong> April 2026</p>
+            <p><strong>Next Review:</strong> April 2027</p>
             <p><strong>Version:</strong> 1.0</p>
             <p><strong>By using Status Saver Downloader, you acknowledge that you have read and understood this Privacy Policy.</strong></p>
         </div>
@@ -542,8 +632,11 @@
     
     <a href="#" class="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">↑</a>
     
+    <div class="download-cta-container">
+        <a href="https://play.google.com/store/apps/details?id=com.prateeksharma.statussaverdownloader" target="_blank" class="download-cta-bottom">Download the app</a>
+    </div>
     <div class="footer">
-        <p>&copy; 2026 Prateek Sharma. All rights reserved.</p>
+        <p>&copy; 2026 RangRanjan Developers. All rights reserved.</p>
         <p>Status Saver Downloader - Your trusted status companion</p>
     </div>
     
